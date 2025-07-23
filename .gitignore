@@ -1,0 +1,77 @@
+# Credentials and secrets
+credentials.json
+*.key
+*.pem
+.env
+.env.local
+.env.production
+
+# N8N specific
+.n8n/
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+
+# Logs
+*.log
+logs/
+mcp-server.log
+n8n.log
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+data/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+
+# Test files
+test-results/
+coverage/
+.nyc_output/
+.pytest_cache/
+
+# Backup files
+*.bak
+*.backup
+*.tmp
+
+# MCP specific
+mcp_data/
+cache/
+temp/
+
+# Production configs with secrets
+docker-compose.prod.yml
+kubernetes-secrets.yml
